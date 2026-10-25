@@ -22,5 +22,9 @@ class TestCommandLine {
          *  * the, 3 characters long
          *  * lab, 3 characters long
          */
+
+        for (String s : args) {
+            IO.println(s + ", " + s.length() + " characters long");
+        }
     }
 }
